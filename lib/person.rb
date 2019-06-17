@@ -1,10 +1,10 @@
 class Person
   
-  def person= (this_is_you)
-  @person = this_is_you
+  def name= (this_is_you)
+  @name = this_is_you
   end
-  def person
-    @person
+  def name
+    @name
   end
   def job= (person_works_here)
     @job = person_works_here
